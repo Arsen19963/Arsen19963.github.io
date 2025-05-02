@@ -254,19 +254,19 @@
   /**
    * Custom JS
    */
-  const fn_calc_age = () => {
-    try {
-      const currYear = new Date().getFullYear();
-      let birthYear = parseInt(
-        select(".about-me .content ul .birth-year").innerHTML
-      );
-      let age = currYear - birthYear;
-      if (age) {
-        select(".about-me .content ul .my-age").innerHTML = age;
-      }
-    } catch (e) {
-      console.log(e);
-    }
-  };
-  fn_calc_age();
+  // const fn_calc_age = () => {
+  //   try {
+  //     const currYear = new Date().getFullYear();
+  //     let birthYear = parseInt(
+  //       select(".about-me .content ul .birth-year").innerHTML
+  //     );
+  //     let age = currYear - birthYear;
+  //     if (age) {
+  //       select(".about-me .content ul .my-age").innerHTML = age;
+  //     }
+  //   } catch (e) {
+  //     console.log(e);
+  //   }
+  // };
+  // fn_calc_age();
 })();
