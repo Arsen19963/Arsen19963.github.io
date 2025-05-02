@@ -1,3 +1,1 @@
-# MERN | Python | Mobile | Web3
-
-## Frontend
+# MERN | Python | Big Data | AI
